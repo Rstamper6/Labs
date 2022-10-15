@@ -6,16 +6,16 @@ console.log (fullName);
 
 let population = (672351);
 console.log (population);
-console.log (population * 3)
+console.log (population * 3);
 
 let javaScriptIsCool = true;
 
-let colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+let colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
 
-for (let a = 1; a <= 5; a++) {
-    console.log (a);
+for (let i = 1; i <= 5; i++) {
+    console.log (i);
 }
 
-for (let b = 0; b <= 4; b++) {
-    console.log (b);
+for (let i = 0; i < 5; i++) {
+    console.log (i);
 }
