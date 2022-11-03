@@ -18,7 +18,7 @@ function addSubmission(array, newName, newScore, newDate) {
     array.push(newSubmission)
     console.log(array)
 }
-//addSubmission(submissions, "Riley", 45, "2020-01-01")
+// addSubmission(submissions, "Riley", 45, "2020-01-01")
 
 
 //#3
@@ -27,17 +27,16 @@ function deleteSubmissionByIndex(array, index){
     console.log(array)
 }
 
-//deleteSubmissionByIndex(submissions, 3)
+// deleteSubmissionByIndex(submissions, 3)
 
 
 //#4
 function deleteSubmissionByName(array, name) {  
     let delSubmission = array.filter(subs => subs.name !== name);
-    console.log(delSubmission)
+    return delSubmission
 }
-// deleteSubmissionByName(submissions, "Jane")
-//deleteSubmissionByName(submissions, "Jack")
-
+// console.log (deleteSubmissionByName(submissions, "Jane"))
+// console.log( deleteSubmissionByName(submissions, "Jack"));
 
 
 //#5
@@ -55,25 +54,20 @@ function editSubmission(array, index, score){
 //#6
 function findSubmissionByName(array, name){
     
-    //could not figure this out
-    // let a = array.find(found =>{
-    //     if(found == name){
-    //         console.log(found)
-    //     }
-    // })
-    // // console.log(a);
-    // return a;
+    // could not figure this out
+//     let a = array.find(found =>{
+    
     
 
 
-    for(let i = 0; i <= array.length -1; i++){
-        if (array[i].name === name){
-            arrayResult.push(array[i]);
-        }
-    } 
-    return arrayResult;
-}
-console.log(findSubmissionByName(submissions, "Jack"))
+//     // for(let i = 0; i <= array.length -1; i++){
+//     //     if (array[i].name === name){
+//     //         arrayResult.push(array[i]);
+//     //     }
+//     // } 
+//     // return arrayResult;
+ }
+// console.log(findSubmissionByName(submissions, "Jack"))
 
 
 

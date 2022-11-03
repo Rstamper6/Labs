@@ -1,4 +1,4 @@
-let actualTemp = 67; 
+let actualTemp = 65; 
 let desiredTemp = 65;
 
 if (actualTemp === desiredTemp){
