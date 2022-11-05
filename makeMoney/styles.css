@@ -1,0 +1,48 @@
+body {
+    background-color: darkgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+body{
+    padding: 10%;
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#howMany {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#coins {
+    display: flex;
+    justify-content: space-between;
+}
+
+#coinPics {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.qtrImg {
+    height: 90px;
+}
+
+.dimeImg {
+    height: 50px;
+}
+
+.nickelImg {
+    height: 75px;
+}
+
+.pennyImg {
+    height: 60px;
+}

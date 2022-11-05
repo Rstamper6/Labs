@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Money</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <form id="coinForm">
+        <div class="input-group mb-3">
+            <label for="howMany">How many?</label>
+            <input value="" id="howMany" type="number" placeholder="Enter Coin Amount">
+            <div id="coins">
+                <input type="radio" name="coin" id="quarter" value="quarter" checked>
+                <label for="quarter">Quarter</label>
+
+                <input type="radio" name="coin" id="nickel" value="nickel" >
+                <label for="nickel">Nickel</label>
+
+                <input type="radio" name="coin" id="dime" value="dime">
+                <label for="dime">Dime</label>
+
+                <input type="radio" name="coin" id="penny" value="penny" >
+                <label for="penny">Penny</label>
+            </div>
+        </div>
+            <button id="subBut" type="submit">Make Monies!</button>
+    </form>
+
+    <div id="coinPics">
+
+    </div>
+
+    <script src="./money.js"></script>
+</body>
+</html>
