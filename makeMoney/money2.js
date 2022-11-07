@@ -5,13 +5,23 @@ let dime = document.getElementById('dime')
 let nickel = document.getElementById('nickel')
 let penny = document.getElementById('penny')
 
+let qp = .25;
+let dp = .10;
+let np = .05;
+let pp = .01;
 
+
+let imgDiv = document.getElementById('coinPics')
+
+imgDiv.addEventListener('click', e =>{
+    e.target.remove();
+})
 
 
 form.addEventListener('submit', e=> {
     e.preventDefault()
     // console.log(howMany.value);
-
+    
     if(quarter.checked){
         for(let i = 0; i < howMany.value; i++){
             let img = document.createElement('img');
@@ -20,7 +30,7 @@ form.addEventListener('submit', e=> {
             img.classList.add("image")
             document.getElementById('coinPics').appendChild(img)
             }
-        console.log(`Quarter is checked and ${howMany.value} were added`)
+        console.log(`Quarter is checked and ${howMany.value} were added`);
     }
     else if(dime.checked){
         for(let i = 0; i < howMany.value; i++){
@@ -52,20 +62,12 @@ form.addEventListener('submit', e=> {
             }
         console.log(`Penny is checked and ${howMany.value} were added`);
     }
+
+
+
+
+
+    
 })
 
-// function removeImg(){
-//     let parent = document.getElementById('coinPics');
-//     let child = parent.querySelector(".image");
-//     let removed = parent.removeChild(child)
 
-// }
-let imgDiv = document.getElementById('coinPics')
-// imgDiv.addEventListener('click', removeImg)
-
-imgDiv.addEventListener('click', e =>{
-    let parent = document.getElementById('coinPics');
-    let child = parent.querySelector(".image");
-    parent.removeChild(child)
-
-})
