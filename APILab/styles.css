@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(212, 205, 197);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+.awardImage {
+    height: 30px;
+    margin-left: 10px;
+}
+.postLink{
+    font-size: medium;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+.postDiv {
+    margin-top: 5px;
+    padding: 10px;
+    border: 3px solid black;
+}
