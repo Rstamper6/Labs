@@ -51,10 +51,10 @@ describe ("Pig latin phrase tests", ()=>{
     })
     test('phrase 3', () =>{
         // let translated = main('your');
-        expect(main.translate("The time is 1:00PM")).toBe("ethay imetay isway 1:00PM")
+        expect(main.translate("The time is 1:00PM")).toBe("eThay imetay isway 1:00PM")
     })
     test('phrase 4', () =>{
         // let translated = main('your');
-        expect(main.translate("My dream was crazy")).toBe("myay eamdray asway azycray")
+        expect(main.translate("My dream was crazy")).toBe("Myay eamdray asway azycray")
     })
 })
