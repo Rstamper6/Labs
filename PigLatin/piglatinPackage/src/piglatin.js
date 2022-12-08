@@ -6,8 +6,6 @@ function translate(input){
         return translatePhrase(input);
     }
 }
-// console.log(translate("apples are good"));
-// console.log(translate("apples"));
 
 function translateWord(toTranslate) {
     let word = toTranslate.toLowerCase();
@@ -37,19 +35,15 @@ function translateWord(toTranslate) {
         return translated;
     }
   }
-console.log(translateWord("Apple"));
 
 function translatePhrase(phrase){
     let phraseArr = phrase.split(" ")
     let newArr = [];
     for (let i = 0; i < phraseArr.length; i++){
         let translated = translateWord(phraseArr[i])
-        // console.log(translated);
         newArr.push(translated)
     }
     return newArr.join(" ");
 }
-// console.log(translatePhrase("My dream was crazy"));
-
 
 module.exports = {translate, translatePhrase, translateWord};
