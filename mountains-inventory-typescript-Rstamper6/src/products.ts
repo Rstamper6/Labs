@@ -21,9 +21,9 @@ function findAvg (products:Product[]): number {
         return 0;
     }
     newPrice = priceHolder / products.length
-    return newPrice
+
+    return Math.round(newPrice * 1e2) / 1e2
 }
-console.log(findAvg(products)
-);
+console.log(findAvg(products));
 
 export {findAvg, Product}
