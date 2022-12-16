@@ -24,6 +24,6 @@ function calcInvVal(inventory:InventoryItems[]): number {
     return totalInv;
 
 }
-console.log(calcInvVal(inventory));
+// console.log(calcInvVal(inventory));
 
 export {calcInvVal, inventory, InventoryItems}
