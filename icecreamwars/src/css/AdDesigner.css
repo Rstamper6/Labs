@@ -1,0 +1,93 @@
+.ad{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+button{
+    background-color: #0e3c7e;
+    color: white;
+    font-size: large;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.voteFor{
+    min-width: 30%;
+    max-width: 100%;
+    width: fit-content;
+    text-align: center;
+}
+
+button:active{
+    background-color: #1e60a9;
+}
+
+#supButtons{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.supBut{
+    width: 30%;
+    height: 30px;
+}
+
+#thSel{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.thBut{
+    width: 40%;
+    height: 30px;
+}
+
+#fontSelBut{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.fontBut{
+    width: 40%;
+    height: 30px;
+}
+.fontInput{
+    width: 20px;
+    text-align: center;
+    border-style: hidden;
+}
+.fontInput:focus{
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+.active{
+    background-color: gray;
+}
+.darkTheme{
+    background-color: #222;
+    color: #fff;
+    border-style: inset;
+    border-color: #fff;
+    box-shadow: 3px 3px 3px #ccc;
+}
+
+@media screen and (max-width: 768px){
+    .ad{
+        width: 100%;
+    }
+    .voteFor{
+        width: fit-content;
+        min-width: 40%;
+
+    }
+
+}
