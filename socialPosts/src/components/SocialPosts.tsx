@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Post } from '../models/Post';
+import { PostForm } from './PostForm';
 
 
 export function SocialPosts () {
@@ -7,6 +8,8 @@ export function SocialPosts () {
 
   return (
     <div>
+      <PostForm />
+      
       {}
     </div>
   );
