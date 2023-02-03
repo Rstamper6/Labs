@@ -1,4 +1,15 @@
 .App {
-  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+
 }
 
+header{
+  color: #03a9f4;
+  text-align: center;
+  padding: 10px;
+}
+
+body{
+  background-color:  #f3f1f7;
+}
